@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Clicked(View v) {
-        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.daum.com"));
+        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.google.com"));
         startActivity(myIntent);
     }
 
